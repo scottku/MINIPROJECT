@@ -36,7 +36,7 @@ public class PhoneNumberDAOImpl implements PhoneNumberDAO{
 			conn = getConnection();
 			stmt = conn.createStatement();
 			
-			String sql = "SELECT id, name, hp, tell FROM phonebook";
+			String sql = "SELECT id, name, hp, tel FROM phonebook ORDER BY id";
 			rs = stmt.executeQuery(sql);
 			
 			while(rs.next()) {
