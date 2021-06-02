@@ -97,7 +97,10 @@ public class PhoneNumberApp {
 				continue;
 			}
 			else if (num == 5) { // 종료
-				System.out.println("전화번호부 종료");
+				System.out.println("*************************************************");
+				System.out.println("*		이용해 주셔서 감사합니다.		*");
+				System.out.println("*************************************************");
+				
 				scanner.close();
 				break;
 			}
